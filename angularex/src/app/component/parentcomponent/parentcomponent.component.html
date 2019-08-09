@@ -1,0 +1,17 @@
+<div class="parent">
+    <h2 style="text-align: center;"><i>Data pass through component</i></h2>
+    <hr>
+    <ol>
+      <li>child to Parent</li>
+      <ol>
+      </ol>
+      <li>Via shared service</li>
+    </ol>
+    <hr>
+    <h3>parent component</h3>
+    <br>
+    <br><br>
+      <app-childcomponent (messageEvent)="reciveMessage($event)"></app-childcomponent>
+  </div>
+  <br>
+  
